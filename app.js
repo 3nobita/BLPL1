@@ -16,7 +16,7 @@ require('dotenv').config();
 const app = express();
 const server = http.createServer(app);
 const io = socketIo(server);
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 1000;
 
 // Set view engine
 app.set('view engine', 'ejs');
